@@ -1,0 +1,881 @@
+﻿body {
+}
+
+.txtBoxSearch {
+    display: block;
+    width: 100%;
+    height: 25px;
+    padding: 1px 12px;
+    font-size: 12px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.loginTxt {
+    margin-top: -26px;
+    display: block;
+    margin-left: 35%;
+    width: 111%;
+    height: 25px;
+    padding: 1px 9px;
+    font-size: 12px;
+    line-height: 1.420000;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.ChngpwdTxt {
+    margin-top: -26px;
+    display: block;
+    margin-left: 49%;
+    width: 100%;
+    height: 25px;
+    padding: 1px 9px;
+    font-size: 12px;
+    line-height: 1.420000;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.btnLogin {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    background-color: #03B0F3;
+    color: #fff;
+}
+
+.btnChngPwd {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    background-color: #757977;
+    margin-left: 12px;
+    color: #fff;
+}
+
+.myLabel {
+    display: block;
+    float: right;
+    width: 50%;
+    height: 25px;
+    padding: 1px 9px;
+    font-size: 12px;
+    line-height: 1.420000;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.pageSizeddl {
+    display: block;
+    float: right;
+    width: 13%;
+    height: 25px;
+    padding: 1px 9px;
+    font-size: 12px;
+    line-height: 1.420000;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.txtUser {
+    /*margin-left: 10%;*/
+    width: 37%;
+    height: 25px;
+    padding: 1px 12px;
+    font-size: 12px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.tabred {
+    background-color: #71599E;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+
+    .tabred .panel-heading {
+        border-color: #71599E;
+        color: #fff;
+        background-color: #71599E;
+    }
+
+    .tabred a {
+        color: #71599E;
+        text-decoration: none;
+    }
+
+.tabLgreed {
+    background-color: #B9B525;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+
+    .tabLgreed .panel-heading {
+        border-color: #B9B525;
+        color: #fff;
+        background-color: #B9B525;
+    }
+
+    .tabLgreed a {
+        color: #B9B525;
+        text-decoration: none;
+    }
+
+.tabLgray {
+    background-color: #4E524E;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+
+    .tabLgray .panel-heading {
+        border-color: #4E524E;
+        color: #fff;
+        background-color: #4E524E;
+    }
+
+    .tabLgray a {
+        color: #4E524E;
+        text-decoration: none;
+    }
+
+.tabLCyn {
+    background-color: #00AEEF;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+
+    .tabLCyn .panel-heading {
+        border-color: #00AEEF;
+        color: #fff;
+        background-color: #00AEEF;
+    }
+
+    .tabLCyn a {
+        color: #00AEEF;
+        text-decoration: none;
+    }
+
+/**-----------------------------------Arrow Keys------------------------------------**/
+.arrow-up {
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid black;
+}
+
+.arrow-down {
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #f00;
+}
+
+.arrow-right {
+    width: 0;
+    height: 0;
+    border-top: 60px solid transparent;
+    border-bottom: 60px solid transparent;
+    border-left: 60px solid green;
+}
+
+.arrow-left {
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid blue;
+}
+/**---------Arrow Button--------------*/
+.arrow_box {
+    position: relative;
+    background: #d5cac6;
+    border: 2px solid #c9f538;
+}
+
+    .arrow_box:after, .arrow_box:before {
+        top: 100%;
+        left: 50%;
+        border: solid transparent;
+        content: " ";
+        height: 0;
+        width: 0;
+        position: absolute;
+        pointer-events: none;
+    }
+
+    .arrow_box:after {
+        border-color: rgba(213, 202, 198, 0);
+        border-top-color: #d5cac6;
+        border-width: 20px;
+        margin-left: -20px;
+    }
+
+    .arrow_box:before {
+        border-color: rgba(201, 245, 56, 0);
+        border-top-color: #c9f538;
+        border-width: 23px;
+        margin-left: -23px;
+    }
+/*-----------------Model Dialoge-*---------------------*/
+.modalDialog {
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.8);
+    z-index: 99999;
+    opacity: 0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+
+    .modalDialog:target {
+        opacity: 1;
+        pointer-events: auto;
+    }
+
+    .modalDialog > div {
+        width: 400px;
+        height: 260px;
+        position: relative;
+        margin: 10% auto;
+        padding: 5px 20px 13px 20px;
+        border-radius: 10px;
+        background: #fff;
+        background: -moz-linear-gradient(#fff, #999);
+        background: -webkit-linear-gradient(#fff, #999);
+        background: -o-linear-gradient(#fff, #999);
+    }
+
+.close {
+    background: #606061;
+    color: #FFFFFF;
+    line-height: 25px;
+    position: absolute;
+    right: 3px;
+    text-align: center;
+    top: 2px;
+    width: 24px;
+    text-decoration: none;
+    font-weight: bold;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    -moz-box-shadow: 1px 1px 3px #000;
+    -webkit-box-shadow: 1px 1px 3px #000;
+    box-shadow: 1px 1px 3px #000;
+}
+
+    .close:hover {
+        background: #00d9ff;
+    }
+
+.modalDialogDefault {
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.8);
+    z-index: 99999;
+    opacity: 0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+
+    .modalDialogDefault:target {
+        opacity: 1;
+        pointer-events: auto;
+    }
+
+    .modalDialogDefault > div {
+        width: 600px;
+        height: auto;
+        position: relative;
+        margin: 10% auto;
+        padding: 5px 20px 13px 20px;
+        border-radius: 10px;
+        background: #fff;
+        background: -moz-linear-gradient(#fff, #999);
+        background: -webkit-linear-gradient(#fff, #999);
+        background: -o-linear-gradient(#fff, #999);
+    }
+
+.close {
+    margin-top: 3px;
+    background: #606061;
+    color: #F50953;
+    line-height: 25px;
+    position: absolute;
+    right: 3px;
+    text-align: center;
+    top: 2px;
+    width: 24px;
+    text-decoration: none;
+    font-weight: bold;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    -moz-box-shadow: 1px 1px 3px #000;
+    -webkit-box-shadow: 1px 1px 3px #000;
+    box-shadow: 1px 1px 3px #000;
+}
+
+    .close:hover {
+        background: #00d9ff;
+    }
+/*-----------------Model Dialoge Completed---------------------*/
+.PLdivL {
+    background-color: #FFFFFF;
+    width: 30%;
+    float: left;
+}
+
+.PLdivR {
+    background-color: #FFFFFF;
+    width: 65%;
+    float: right;
+    margin-right: 1%;
+}
+
+/*--------------Grid View Style-----------*/
+.mGrid {
+    width: 100%;
+    background-color: #fff;
+    margin: 5px 0 10px 0;
+    border: solid 1px #ddd;
+    border-collapse: collapse;
+}
+
+    .mGrid td {
+        padding: 0px;
+        border: solid 1px #ddd;
+        color: #717171;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .mGrid th {
+        padding: 4px 2px;
+        color: #FFFFFF !important;
+        background: #06B7F9;
+        border-left: solid 1px #ddd;
+        font-size: 0.9em;
+        height: 32px;
+        /*font-family: monospace;
+        font-size: 14px;*/
+        text-align: center;
+    }
+
+        .mGrid th label {
+            color: #FFFFFF !important;
+        }
+
+        .mGrid th a {
+            color: #FFFFFF !important;
+        }
+
+    .mGrid .alt {
+        background: #EEEEEE;
+    }
+
+    .mGrid .pgr {
+        background: #BCC1C1;
+    }
+
+        .mGrid .pgr table {
+            margin: 5px 0;
+        }
+
+        .mGrid .pgr td {
+            border-width: 0;
+            padding: 0 6px;
+            border-left: solid 1px #ddd;
+            font-weight: bold;
+            color: #fff;
+            line-height: 12px;
+        }
+
+        .mGrid .pgr a {
+            color: #00AEEF;
+            text-decoration: none;
+        }
+
+            .mGrid .pgr a:hover {
+                color: #000;
+                text-decoration: none;
+            }
+
+/*--------------Grid View Style End Here-----------*/
+.btnDiv {
+    margin-left: 132px;
+}
+
+.logintxt {
+    margin-right: 58px;
+    width: 66%;
+}
+
+.userMode {
+    background-color: #EEEEEE;
+    border: 2px Solid #e2e2e2;
+    padding: 15px;
+    width: 77%;
+    margin-left: auto;
+    margin-right: 11%;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.tblSearch {
+}
+
+    .tblSearch td {
+        width: 83%;
+    }
+
+.fileUpload {
+    float: right;
+    width: 52%;
+    height: 25px;
+    padding: 1px 12px;
+    font-size: 12px;
+    line-height: 1.42857143;
+    color: #555;
+    margin-top: 2%;
+}
+
+.deleteDynamic {
+    margin-top: 19px;
+    height: 15px;
+    width: 15px;
+}
+/*------------Accordion- Start-----------------*/
+.accordion {
+    width: 61%;
+}
+
+.accordionHeader {
+    border: 1px solid #2F4F4F;
+    color: White;
+    background-color: #6F8190;
+    font-family: Trebuchet MS;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+    webkit-border-radius: 15px 15px 0px 0px;
+    -moz-border-radius: 15px 15px 0px 0px;
+    border-radius: 6px 6px 0px 0px;
+}
+
+.accordionHeaderSelected {
+    border: 1px solid #2F4F4F;
+    color: White;
+    background-color: #444D54;
+    font-family: Trebuchet MS;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+    webkit-border-radius: 10px 10px 0px 0px;
+    -moz-border-radius: 15px 15px 0px 0px;
+    border-radius: 6px 6px 0px 0px;
+}
+
+.accordionContent {
+    background-color: White;
+    border: 1px solid #00AEEF;
+    border-top: none;
+    padding: 5px;
+    padding-top: 10px;
+    -webkit-border-radius: 0px 0px 15px 15px;
+    -moz-border-radius: 0px 0px 15px 15px;
+    border-radius: 0px 0px 6px 6px;
+}
+
+.btnSaveAtributeGroup {
+    width: 880px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+/*------------Repeater Start-----------------*/
+.grid-product {
+    display: block;
+    margin: 2% 0;
+}
+
+.product-grid h4 {
+    font-size: 16px;
+    margin-top: 5px;
+    height: 50px;
+    line-height: 22px;
+}
+
+    .product-grid h4 a {
+        text-transform: uppercase;
+        color: #000000;
+    }
+
+.product-grid p {
+    font-size: 0.8125em;
+    color: #777777;
+    line-height: 1.5em;
+    margin-bottom: 10px;
+}
+
+.content_box-grid {
+    margin-top: 1em;
+}
+
+.product-grid {
+    float: left;
+    width: 100%;
+    border: 1px solid #ccc;
+}
+
+    .product-grid .content_box {
+        padding: 10px;
+    }
+
+.left-grid-view {
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 1em;
+    height: 170px;
+    margin-top: 15px;
+}
+
+    .left-grid-view .mask, .left-grid-view .content {
+        position: absolute;
+        overflow: hidden;
+        top: 100px;
+        left: 150px;
+    }
+
+.grid-view-left img {
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    margin: 0 auto;
+}
+
+.grid-view-left .mask {
+    -webkit-transform: translateX(-300px);
+    -moz-transform: translateX(-300px);
+    -o-transform: translateX(-300px);
+    -ms-transform: translateX(-300px);
+    transform: translateX(-300px);
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
+    opacity: 1;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.grid-view-left:hover .mask {
+    -webkit-transform: translateX(0px);
+    -moz-transform: translateX(0px);
+    -o-transform: translateX(0px);
+    -ms-transform: translateX(0px);
+    transform: translateX(0px);
+}
+/*---------- Auto complete extender Style Start here-------------*/
+.completionList {
+    font: 11px "Arial", Times, serif;
+    margin: 0px;
+    font-weight: normal;
+    border: solid 1px #006699;
+    line-height: 15px;
+    padding: 0px;
+    overflow: auto;
+    background-color: White;
+}
+
+.listItem {
+    border-bottom: dotted 1px #006699;
+    cursor: pointer;
+    color: Maroon;
+    left: auto;
+    margin: 0px;
+}
+
+.itemHighlighted {
+    color: White;
+    background-color: #2F9FEA;
+    cursor: pointer;
+    margin: 0px;
+}
+/*---------- Auto complete extender Style End here-------------*/
+
+/*---------- Context Menu Style Start here-------------*/
+.contextMenu {
+    background-color: #FFFFFF;
+    border: none;
+    width: 12%;
+    position: absolute;
+    cursor: pointer;
+}
+
+    .contextMenu tr {
+        font: normal 12px Trebuchet MS;
+        border: 0px solid #E4E1DE;
+        background-color: #FFFFFF;
+    }
+
+    .contextMenu td {
+        font: bold 12px "Trebuchet MS";
+        color: #FFFFFF;
+        border: 1px solid #E4E1DE;
+        height: 32px;
+        color: #06B7F9;
+        border-radius: 4px;
+        padding: 3px 5px 4px 5px;
+    }
+
+    .contextMenu tr:active {
+        background-color: #06B7F9;
+    }
+
+    .contextMenu tr:hover {
+        background: #383737;
+        cursor: pointer;
+    }
+/*---------- Context Menu Style End here-------------*/
+/*---Coded By Jaseel for model popup extender--*/
+.modalBackground {
+    background-color: #191818;
+    filter: alpha(opacity=90);
+    opacity: 0.8;
+}
+
+.modalPopup {
+    background-color: #FFFFFF;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #4AA5EA;
+    padding-top: 22px;
+    padding-left: 0px;
+    width: 600px;
+    height: auto;
+    font-family: Trebuchet MS;
+    border-radius: 9px;
+}
+
+.modalPopupSelect {
+    background-color: #FFFFFF;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #4AA5EA;
+    padding-top: 22px;
+    padding-left: 0px;
+    width: auto;
+    height: 350px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.popupHeader {
+    width: 100%;
+    background-color: #18C5F9;
+    margin-top: -34px;
+    height: 26px;
+    color: #FFFBFB;
+    font-family: Trebuchet MS;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+    .popupHeader h5 {
+        line-height: 25px;
+    }
+
+/*--------------Object Grid View Style-----------*/
+.oGrid {
+    width: 100%;
+    background-color: #fff;
+    margin: 5px 0 10px 0;
+    border: solid 1px #ddd;
+    border-collapse: collapse;
+}
+
+    .oGrid td {
+        padding: 0px;
+        border: solid 1px #ddd;
+        color: #717171;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .oGrid th {
+        padding: 4px 2px;
+        color: #FFFFFF !important;
+        background: #06B7F9;
+        border-left: solid 1px #ddd;
+        font-size: 0.9em;
+        height: 32px;
+        /*font-family: monospace;
+        font-size: 14px;*/
+        text-align: center;
+    }
+
+        .oGrid th label {
+            color: #FFFFFF !important;
+        }
+
+        .oGrid th a {
+            color: #FFFFFF !important;
+        }
+
+    .oGrid .alt {
+        background: #EEEEEE;
+    }
+
+    .oGrid .pgr {
+        background: #BCC1C1;
+    }
+
+        .oGrid .pgr table {
+            margin: 5px 0;
+        }
+
+        .oGrid .pgr td {
+            border-width: 0;
+            padding: 0 6px;
+            border-left: solid 1px #ddd;
+            font-weight: bold;
+            color: #fff;
+            line-height: 12px;
+        }
+
+        .oGrid .pgr a {
+            color: #00AEEF;
+            text-decoration: none;
+        }
+
+            .oGrid .pgr a:hover {
+                color: #000;
+                text-decoration: none;
+            }
+/*--------------Grid View Style End Here-----------*/
+.navlist {
+    cursor: pointer;
+    padding: 6px 0px 0px 19px;
+}
+
+.navbar {
+    margin-bottom: 0;
+    background-image: url(../Images/Lds_Banner.png);
+    background-size: 100% 60px;
+    background-repeat: no-repeat;
+    padding-top: 10px;
+}
